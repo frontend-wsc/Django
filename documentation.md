@@ -15,3 +15,10 @@
  ```
  	$ django-admin startproject mysite
  ```
+
+## The development server
+  * 启动一个 web 服务器
+```
+ 	$ cd mysite
+      python manager.py runserver
+ ```	
