@@ -21,4 +21,9 @@
 ```
  	$ cd mysite
       python manager.py runserver
- ```	
+ ```
+
+* 创建管理员
+```
+	python .\manage.py createsuperuser
+```
