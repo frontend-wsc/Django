@@ -27,3 +27,11 @@
 ```
 	python .\manage.py createsuperuser
 ```
+* 配置应用
+  - 在应用的admin.py中引入自身的models模块(或里面的类型类)
+  - edit admin.py: admin.site.register(models.ClassName)
+  - edit models.ClassName:
+    	添加
+        def __str__(self):
+         return self.title
+         修改数据展示形式
